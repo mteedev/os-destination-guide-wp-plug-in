@@ -1,0 +1,19 @@
+destination-guide/
+├── admin/
+│   ├── admin-page.php
+│   ├── destination-form.php
+│   └── css/
+│       └── admin-style.css
+├── includes/
+│   ├── class-destination-guide.php
+│   └── database.php
+├── public/
+│   ├── css/
+│   │   └── destination-guide.css
+│   ├── js/
+│   │   └── destination-guide.js
+│   └── templates/
+│       └── destination-list.php
+├── uploads/
+├── index.php
+└── destination-guide.php

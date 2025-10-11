@@ -1,0 +1,68 @@
+/**
+ * Admin styles for Destination Guide
+ */
+
+.destination-guide-filters {
+    margin: 20px 0;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+}
+
+.destination-guide-filters select {
+    margin-right: 10px;
+}
+
+.destination-image-preview {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    background: #f0f0f0;
+}
+
+.coordinates-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.coordinates-wrapper label {
+    margin: 0 5px 0 15px;
+}
+
+.coordinates-wrapper label:first-child {
+    margin-left: 0;
+}
+
+.coordinates-wrapper input[type="number"] {
+    width: 80px;
+}
+
+/* Card styling for import/export page */
+.card {
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    border: 1px solid #ccd0d4;
+}
+
+.card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Action links */
+.wp-list-table .delete {
+    color: #a00;
+}
+
+.wp-list-table .delete:hover {
+    color: #dc3232;
+}
